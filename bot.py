@@ -14,7 +14,7 @@ TRIGGERS = [
     (re.compile(r'\b(g[uü]nsel\s*group|гюнсел\s*груп|g[uü]nsel|гюнсел)\b', re.IGNORECASE), "Günsel Group"),
 ]
 
-CYCLE_START = datetime(2025, 5, 17, tzinfo=timezone(timedelta(hours=3)))
+CYCLE_START = datetime(2025, 5, 18, tzinfo=timezone(timedelta(hours=3)))
 
 SCHEDULE = [
     {"day": "вс", "ilona": None,      "alina": (8,  15)},
